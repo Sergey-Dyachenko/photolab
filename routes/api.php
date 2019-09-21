@@ -17,9 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/', function () {
-    return response()->json([
-        'message' => 'Hi api!!!'
-    ]);
-});
+Route::post('upload_file', 'FileActionController@upload_file');
 
