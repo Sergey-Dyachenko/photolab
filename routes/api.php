@@ -18,4 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('upload_file', 'FileActionController@upload_file');
+Route::post('upload_file_test', 'FileActionController@upload_file_test');
 

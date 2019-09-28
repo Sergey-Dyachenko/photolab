@@ -24,8 +24,8 @@ class UploadFileToServer extends FormRequest
     public function rules()
     {
         return [
-            'file1' => 'required|image',
-            'no_resize' => 'numeric'
+            'photo' => 'required|image',
+            'text' => 'required|string'
         ];
     }
 }

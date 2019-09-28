@@ -11,3 +11,6 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .idea/*
+.idea/photolab.iml
+.idea/php.xml
+.idea/workspace.xml
